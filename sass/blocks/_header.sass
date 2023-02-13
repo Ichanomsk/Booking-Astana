@@ -7,8 +7,10 @@
     padding-top: 40px
     padding-bottom: 40px
   &__search
-    margin-right: 100px
+    margin-right: auto
     margin-left: 108px 
+  &__menu-button
+    display: none  
   &-bottom
     background-color: $dark
 
@@ -20,6 +22,7 @@
     margin: 0
     color: $light
     padding: 30px 0
+
     &__link
       color: inherit
       text-decoration: none
@@ -53,16 +56,19 @@
     width: 65px
     border: none
     background-color: $primary
-  .user
-    display: flex
-    align-items: center
-    text-decoration: none
-    &__avatar
-      width: 100%
-      height: 100%
-      border-radius: 50
-      object-fit: cover
-    &__name
-      font-size: 14px
-      line-height: 18px
-      margin-left: 18px
+.user
+  display: flex
+  align-items: center
+  text-decoration: none
+  &__avatar
+    width: 40px
+    height: 40px
+    border-radius: 50px
+    object-fit: cover
+  &__name
+    margin-left: 18px
+    font-size: 14px
+    line-height: 18px
+    margin-left: 18px
+    color: $text-color
+    

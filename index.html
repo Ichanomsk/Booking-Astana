@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Booking</title>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
     <link
       href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&family=Nunito:wght@400;700&display=swap"
       rel="stylesheet"
@@ -40,17 +42,19 @@
               />
             </button>
           </form>
-          <a href="#" class="user">
+          <a href="#" class="user header__user">
             <img
               src="img/Brad_Pitt_Fury_2014.jpg"
-              width="30"
-              height="40"
               alt="Avatar:Brad"
               class="avatar user__avatar"
             />
+            <span class="user__name">Brad</span>
           </a>
-
-          <span class="user__name">Brad</span>
+          <button class="menu-button header-top__menu-button">
+            <span class="menu-button__line"></span>
+            <span class="menu-button__line"></span>
+            <span class="menu-button__line"></span>
+          </button>
         </div>
         <!-- /.header-top -->
       </div>
@@ -83,5 +87,45 @@
         </div>
       </div>
     </header>
+    <nav class="breadcrumb">
+      <div class="container">
+        <ul class="breadcrumb-list">
+          <li class="breadcrumb-list__item">
+            <a href="#" class="breadcrumb-list__link">Home</a>
+          </li>
+
+          <li class="breadcrumb-list__item">
+            <a href="#" class="breadcrumb-list__link">Flash offers</a>
+          </li>
+
+          <li class="breadcrumb-list__item">Astana Hilton</li>
+        </ul>
+      </div>
+      <!-- /.container -->
+    </nav>
+    <!-- /.breadcrumb -->
+    <section class="hotel">
+      <div class="container">
+        <div class="hotel-info">
+          <div class="hotel-info__text">
+            <div class="stars">
+              <img src="img/star.png" alt="star" />
+              <img src="img/star.png" alt="star" />
+              <img src="img/star.png" alt="star" />
+              <img src="img/star.png" alt="star" />
+              <img src="img/star.png" alt="star" />
+            </div>
+            <h1 class="hotel-name">Astana Hilton</h1>
+            <span class="offer hotel-info__offer">Flash Offer</span>
+            <p class="hotel-description">Великолепное расположение</p>
+          </div>
+          <div class="rating hotel-info__rating">
+            <span class="rating__text">User Rating</span>
+            <span class="rating__counter">4.5/5</span>
+          </div>
+        </div>
+      </div>
+      <!-- /.container -->
+    </section>
   </body>
 </html>
