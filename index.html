@@ -11,7 +11,7 @@
       href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&family=Nunito:wght@400;700&display=swap"
       rel="stylesheet"
     />
-    />
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
@@ -124,8 +124,93 @@
             <span class="rating__counter">4.5/5</span>
           </div>
         </div>
+        <div class="hotel-grid">
+          <div class="slider">
+            <div class="swiper">
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                  <img src="img/astana-hilton-1.jpeg" alt="astana-hilton" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="img/astana-hilton-2.jpeg" alt="astana-hilton" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="img/astana-hilton-3.jpeg" alt="astana-hilton" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="img/astana-hilton-4.jpeg" alt="astana-hilton" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="img/astana-hilton-5.jpeg" alt="astana-hilton" />
+                </div>
+              </div>
+
+              <!-- If we need navigation buttons -->
+              <button class="slider-button slider-button--prev"></button>
+              <button class="slider-button slider-button--next"></button>
+            </div>
+            <!-- /.swiper -->
+          </div>
+          <!-- /.slider -->
+          <div class="hotel-right">
+            <div class="booking">
+              <div class="booking__info">
+                <div class="booking__price">
+                  <span class="booking__start">price start as</span>
+                  <strong class="booking__pricetag">$ 8,500</strong>
+                  <span class="booking__per-room">per room / night</span>
+                </div>
+                <!-- /.booking__price -->
+                <div class="booking__room">
+                  <div class="booking__text">
+                    <img
+                      src="img/user-svgrepo-com.svg"
+                      alt="Icon:user"
+                      class="booking__icon"
+                    />
+                    <span class="booking-room__description">2 × Guest</span>
+                  </div>
+                  <div class="booking__text">
+                    <img
+                      src="img/house-svgrepo-com.svg"
+                      alt="Icon:house"
+                      class="booking__icon"
+                    />
+                    <span class="booking__description">1 × Room</span>
+                  </div>
+                </div>
+                <!-- /.booking__room -->
+              </div>
+              <!-- /.booking__info -->
+              <div class="booking__call-center">
+                <span class="booking__heading">Quick Booking</span>
+                <a href="tel:12100" class="booking__number">
+                  <img
+                    src="img/phone.svg"
+                    alt="Icon:phone"
+                    class="booking__icon"
+                  />
+                  <span class="booking__num">12100</span>
+                </a>
+              </div>
+              <!-- /.call-center -->
+              <div class="button botton booking__button">
+                View Other Options
+              </div>
+            </div>
+            <!-- /.booking -->
+            <div class="map"></div>
+            <!-- /.map -->
+          </div>
+          <!-- /.hotel-right -->
+        </div>
+        <!-- /.hotel-grid -->
       </div>
       <!-- /.container -->
     </section>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
