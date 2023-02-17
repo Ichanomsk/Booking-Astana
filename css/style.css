@@ -512,6 +512,10 @@ template {
   position: relative;
   border-radius: 8px;
 }
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+}
 
 .slider {
   width: 725px;
