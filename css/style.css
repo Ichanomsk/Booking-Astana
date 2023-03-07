@@ -84,6 +84,7 @@ img {
   width: 65px;
   border: none;
   background-color: #063b85;
+  fill: #f3f3f3;
 }
 
 .user {
@@ -719,6 +720,7 @@ template {
   height: 100%;
   border: none;
   background-color: #063b85;
+  color: #f3f3f3;
 }
 
 @media (max-width: 1200px) {
