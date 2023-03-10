@@ -129,55 +129,57 @@
           </div>
         </div>
         <div class="hotel-grid">
-          <div class="slider hotel__slider">
-            <div class="swiper">
-              <!-- Additional required wrapper -->
-              <div class="swiper-wrapper">
-                <!-- Slides -->
-                <div class="swiper-slide">
-                  <img
-                    class="swiper-slide__image"
-                    src="img/astana-hilton-1.jpeg"
-                    alt="astana-hilton"
-                  />
-                </div>
-                <div class="swiper-slide">
-                  <img
-                    class="swiper-slide__image"
-                    src="img/astana-hilton-2.jpeg"
-                    alt="astana-hilton"
-                  />
-                </div>
-                <div class="swiper-slide">
-                  <img
-                    class="swiper-slide__image"
-                    src="img/astana-hilton-3.jpeg"
-                    alt="astana-hilton"
-                  />
-                </div>
-                <div class="swiper-slide">
-                  <img
-                    class="swiper-slide__image"
-                    src="img/astana-hilton-4.jpeg"
-                    alt="astana-hilton"
-                  />
-                </div>
-                <div class="swiper-slide">
-                  <img
-                    class="swiper-slide__image"
-                    src="img/astana-hilton-5.jpeg"
-                    alt="astana-hilton"
-                  />
-                </div>
+          <div class="swiper hotel-slider hotel__slider">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                <img
+                  class="swiper-slide__image"
+                  src="img/astana-hilton-1.jpeg"
+                  alt="astana-hilton"
+                />
               </div>
-
-              <!-- If we need navigation buttons -->
-              <button class="slider-button slider-button--prev"></button>
-              <button class="slider-button slider-button--next"></button>
+              <div class="swiper-slide">
+                <img
+                  class="swiper-slide hotel-slider__item"
+                  src="img/astana-hilton-2.jpeg"
+                  alt="astana-hilton"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  class="swiper-slide hotel-slider__item"
+                  src="img/astana-hilton-3.jpeg"
+                  alt="astana-hilton"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  class="swiper-slide hotel-slider__item"
+                  src="img/astana-hilton-4.jpeg"
+                  alt="astana-hilton"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  class="swiper-slide hotel-slider__item"
+                  src="img/astana-hilton-5.jpeg"
+                  alt="astana-hilton"
+                />
+              </div>
             </div>
-            <!-- /.swiper -->
+
+            <!-- If we need navigation buttons -->
+            <button
+              class="hotel-slider__button hotel-slider__button--prev"
+            ></button>
+            <button
+              class="hotel-slider__button hotel-slider__button--next"
+            ></button>
           </div>
-          <!-- /.slider -->
+          <!-- /.swiper -->
+
           <div class="hotel-right">
             <div class="booking">
               <div class="booking__info">
@@ -260,17 +262,105 @@
     </section>
     <section class="reviews">
       <div class="container">
-        <h2 class="section-title">What people think about us</h2>
+        <h2 class="reviews__title">What people think about us</h2>
         <div class="swiper reviews-slider">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
-              <div class="reviews-slider__item"></div>
+              <div class="reviews-slider__item">
+                <div class="reviews-slider__profile">
+                  <img
+                    src="img/Jennifer_Lawrence._photo-resizer.ru.jpeg"
+                    alt="Photo:Jennifer_Lawrence"
+                    class="reviews-slider__avatar"
+                  />
+                  <h3 class="reviews-slider__username">Jennifer Lawrence</h3>
+                  <span class="reviews-slider__date">Stayed 25 Jun, 2022</span>
+                  <div class="reviews-slider__rating">
+                    <img src="img/star.png" alt="star" />
+                    <img src="img/star.png" alt="star" />
+                    <img src="img/star.png" alt="star" />
+                    <img src="img/star.png" alt="star" />
+                    <img src="img/star.png" alt="star" />
+                  </div>
+                  <!-- /.reviews-slider__rating -->
+                </div>
+                <!-- /.reviews-slider__profile -->
+                <p class="reviews-slider__text">
+                  It very nice hotel with cleanless. Staff behavior was good and
+                  polite.
+                </p>
+              </div>
               <!-- /.reviews-slider__item -->
             </div>
+            <!-- /.swiper-slide -->
+            <div class="swiper-slide">
+              <div class="reviews-slider__item">
+                <div class="reviews-slider__profile">
+                  <img
+                    src="img/Monica_Bellucci,_Women's_World_Awards_2009_b.jpg"
+                    alt="Photo:Monica Bellucci"
+                    class="reviews-slider__avatar"
+                  />
+                  <h3 class="reviews-slider__username">Monica Bellucci</h3>
+                  <span class="reviews-slider__date">Stayed 28 Jun, 2022</span>
+                  <div class="reviews-slider__rating">
+                    <img src="img/star.png" alt="star" />
+                    <img src="img/star.png" alt="star" />
+                    <img src="img/star.png" alt="star" />
+                    <img src="img/star.png" alt="star" />
+                    <img src="img/star.png" alt="star" />
+                  </div>
+                  <!-- /.reviews-slider__rating -->
+                </div>
+                <!-- /.reviews-slider__profile -->
+                <p class="reviews-slider__text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. At,
+                  beatae impedit quos veritatis consequuntur molestias, ea ipsam
+                  tempora distinctio doloribus eaque quae assumenda commodi
+                  natus sed quasi iste nostrum similique?
+                </p>
+              </div>
+              <!-- /.reviews-slider__item -->
+            </div>
+            <!-- /.swiper-slide -->
+            <div class="swiper-slide">
+              <div class="reviews-slider__item">
+                <div class="reviews-slider__profile">
+                  <img
+                    src="img/Chris Pratt.jpg"
+                    alt="Photo:Chris Pratt"
+                    class="reviews-slider__avatar"
+                  />
+                  <h3 class="reviews-slider__username">Chris Pratt</h3>
+                  <span class="reviews-slider__date">Stayed 6 Jul, 2022</span>
+                  <div class="reviews-slider__rating">
+                    <img src="img/star.png" alt="star" />
+                    <img src="img/star.png" alt="star" />
+                    <img src="img/star.png" alt="star" />
+                    <img src="img/star.png" alt="star" />
+                    <img src="img/star.png" alt="star" />
+                  </div>
+                  <!-- /.reviews-slider__rating -->
+                </div>
+                <!-- /.reviews-slider__profile -->
+                <p class="reviews-slider__text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Est,
+                  itaque consequatur quaerat commodi aliquam deserunt hic!
+                  Possimus, voluptatum illum. Nulla ex libero repellendus
+                  impedit ipsa sit officia magni. Itaque, deleniti.
+                </p>
+              </div>
+              <!-- /.reviews-slider__item -->
+            </div>
+            <!-- /.swiper-slide -->
           </div>
           <!--/.swiper-wrapper  -->
-          <div class="swiper-button-prev"></div>
-          <div class="swiper-button-next"></div>
+          <button
+            class="reviews-slider__button reviews-slider__button--prev"
+          ></button>
+          <button
+            class="reviews-slider__button reviews-slider__button--next"
+          ></button>
         </div>
         <!-- /.reviews-slider -->
       </div>
